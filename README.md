@@ -1,1 +1,2 @@
-This blog is the digital twin that tracks what my notes and readings in computer science.
+Inspired by the morning paper project which sadly has stopped, I have decided to create digital twins for my otherwise physical notes. You can find them at this link:
+https://zilutian.github.io/csblog/blog/.
