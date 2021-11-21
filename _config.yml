@@ -18,7 +18,7 @@ resume-external: true
 
 url: https://zilutian.github.io/csblog
 
-permalink: https://zilutian.github.io/csblog/
+permalink: /:title/
 
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
@@ -94,6 +94,10 @@ defaults:
       # setting all post to not hidden by default,
       # can be overridden in the front matter for a specific post
       hidden: false
+
+markdown: kramdown
+kramdown:
+  math_engine: nil  # for katex (because kramdown defaults to mathjax)
 
 plugins:
   - jekyll-seo-tag
