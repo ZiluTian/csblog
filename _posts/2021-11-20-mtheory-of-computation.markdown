@@ -11,7 +11,7 @@ author: Zilu
 katex: yes
 description: Summary of "Outline of a mathematical theory of computation" by Dana Scott
 ---
-Reference: Data Scott:
+Reference: Dana Scott:
 Outline of a mathematical theory of computation. Oxford University Computing Laboratory, Programming Research Group 1970: 169-176. [paper]
 
 This paper (available at [paper]) introduces a mathematical, rather than operational, theory of computation. The theory explores the idea that we can partially order data types by a relation, and can consider them as complete lattices. The author shows the properties of these lattices and functions over such data types. 
@@ -77,7 +77,7 @@ The author uses **directed sets** to express the notion of *limit*. A subsect $$
 
 $$ x_0 \sqcup x_1 \ldots \sqcup x_{n-1} \sqcup x_{n} \sqsubseteq y $$
 
-A directed set is always non-empty. The *limit* of the directed set is the l.u.b $$ \sqcup X $$. Suppose we want a "finite" amount of information about $$ \sqcup X $$, each "bit" we need is contained in *some* element of $$ X $$. By directedness, *all* of it is contained in at least one element of $$X$$. If we consider a monotonic function, the information about $$ f(\sqcup X) $$ is the "limit" of its "finite" parts.
+A directed set is always non-empty. The *limit* of the directed set is the l.u.b $ \sqcup X $. Suppose we want a "finite" amount of information about $$ \sqcup X $$, each "bit" we need is contained in *some* element of $$ X $$. By directedness, *all* of it is contained in at least one element of $$X$$. If we consider a monotonic function, the information about $$ f(\sqcup X) $$ is the "limit" of its "finite" parts.
 
 $$ f(\sqcup X) = \sqcup \{ f(x): x \in X \} $$
 
