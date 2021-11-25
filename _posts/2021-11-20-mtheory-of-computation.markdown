@@ -73,11 +73,11 @@ The l.u.b of the empty subset of data type is the "bottom" of the lattice, the "
 
 $$ x \sqcap y = \bot $$
 
-The author uses **directed sets** to express the notion of *limit*. A subsect $$ X \subseteq D $$ is *directed* if every finite subset has an upper bound $$ y \in X $$
+The author uses **directed sets** to express the notion of *limit*. A subset $$ X \subseteq D $$ is *directed* if every finite subset has an upper bound $$ y \in X $$
 
 $$ x_0 \sqcup x_1 \ldots \sqcup x_{n-1} \sqcup x_{n} \sqsubseteq y $$
 
-A directed set is always non-empty. The *limit* of the directed set is the l.u.b $ \sqcup X $. Suppose we want a "finite" amount of information about $$ \sqcup X $$, each "bit" we need is contained in *some* element of $$ X $$. By directedness, *all* of it is contained in at least one element of $$X$$. If we consider a monotonic function, the information about $$ f(\sqcup X) $$ is the "limit" of its "finite" parts.
+A directed set is always non-empty. The *limit* of the directed set is the l.u.b $$ \sqcup X $$. Suppose we want a "finite" amount of information about $$ \sqcup X $$, each "bit" we need is contained in *some* element of $$ X $$. By directedness, *all* of it is contained in at least one element of $$X$$. If we consider a monotonic function, the information about $$ f(\sqcup X) $$ is the "limit" of its "finite" parts.
 
 $$ f(\sqcup X) = \sqcup \{ f(x): x \in X \} $$
 
