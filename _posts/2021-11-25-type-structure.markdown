@@ -1,7 +1,7 @@
 ---
 title: "Towards a theory of type structure"
 layout: post
-date: 2021-11-20
+date: 2021-11-25
 tag:
 - type structure
 - John Reynolds
