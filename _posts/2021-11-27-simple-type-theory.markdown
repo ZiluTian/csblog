@@ -4,6 +4,7 @@ layout: post
 date: 2021-11-27
 tag:
 - type theory
+- Richard Southwell
 star: true
 category: blog
 author: Zilu
@@ -12,7 +13,7 @@ description: Note of Simple type theory" by Richard Southwell
 ---
 Reference: [video]
 
-In this [video], Dr. Southwell discussed the simple type theory, and its relationship with logic and category theory. I really enjoy how he puts things in the perspective of broader contexts, and decide to summarize the notes here.
+In this [video], Dr. Southwell discussed the simple type theory, and its relationship with intuitionistic logic (in what follows, we refer to it simply as logic) and category theory. I really enjoy how he puts things in the perspective of broader contexts, and decide to summarize the notes here.
 
 Simple type theory is the *minimal* language to describe bicartesian closed categories [bicartesian-closed-category]. The *Set*, *Graph*, and *Function* categories are some examples of bicartesian closed category. 
 <!-- For example, in the following expression, in terms of category theory, we have *exponential objects*, *arrow composition*, and *products*.
