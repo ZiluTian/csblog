@@ -13,17 +13,12 @@ description: Note of Simple type theory" by Richard Southwell
 ---
 Reference: [video]
 
-In this [video], Dr. Southwell discussed the simple type theory, and its relationship with intuitionistic logic (in what follows, we refer to it simply as logic) and category theory. I really enjoy how he puts things in the perspective of broader contexts, and decide to summarize the notes here.
-
-Simple type theory is the *minimal* language to describe bicartesian closed categories [bicartesian-closed-category]. The *Set*, *Graph*, and *Function* categories are some examples of bicartesian closed category. 
-<!-- For example, in the following expression, in terms of category theory, we have *exponential objects*, *arrow composition*, and *products*.
-$$ (A \rightarrow B) \times (B \rightarrow C) \rightarrow (A \rightarrow C)$$ -->
-The simple type theory is also called *lambda calculus with sum*. 
+In this [video], Dr. Southwell discussed the simple type theory and its relationship with intuitionistic logic (in what follows, we refer to it simply as logic) and category theory. Simple type theory is the *minimal* language to describe bicartesian closed categories [bicartesian-closed-category]. The *Set*, *Graph*, and *Function* categories are some examples of bicartesian closed category. The simple type theory is also called *lambda calculus with sum*. 
 
 ### Types
 - $$O$$ is the **empty type**. In set theory, the empty set; in category theory, the initial object; in logic, the false proposition.
 - $$1$$ is the **unit type**. In set theory, the singleton set; in category theory, the terminal object; in logic, the true proposition.
-- Base types, $$A, B, \ldots$$, which represent other objects in the bicartesian closed category.
+- $$A, B, \ldots$$ are the base types. In category theory, they are objects other than initial and terminal objects in the bicartesian closed category.
 - **Product type**, $$ A \times B $$. In set theory, the cartesian product; in category theory, the product of objects; in logic, A and B.
 - **Sum type**, $$ A + B $$. In set theory, the sum of sets; in category theory, the co-product of objects; in logic, A or B.
 - **Function type**, $$ (A \rightarrow B) $$. In set theory, the set of functions from A to B; in category theory, the exponential object $$B ^ A$$; in logic, A implies B.
@@ -68,9 +63,10 @@ corresponds to
 $$ L \times A \xrightarrow{\pi_1} L \xrightarrow{b} B$$
 
 #### Unit introduction rule
+
 $$\over \Gamma \vdash * : 1 $$
 
-In any context, * is of unit type. In logic, for any context, we always have the proof true is true. In set theory, we can always produce a value * of type 1. For example, when $$ \Gamma = x : A $$, then we have the unique function from set A to the singleton set that sends all elements of A to *.
+In any context, * is of unit type. In logic, for any context, we always have the proof that proposition true is true. In set theory, we can always produce a value * of type 1. For example, when $$ \Gamma = x : A $$, then we have the unique function from set A to the singleton set that sends all elements of A to *.
 
 #### Product introduction rule
 
@@ -106,7 +102,7 @@ $$
 \over \Gamma \vdash (\lambda x: A).b : A \rightarrow B
 $$
 
-The function introduction rule allows us to think of a function from A to B as a value of function type. In logic, if we have proof x of proposition A that entails proof b of proposition B, then we have a proof of proposition A implies B. In category theory, it corresponds to the currying map [bicartesian-closed-category] or transpose [exponential-object-wiki] associated with exponential objects. For $$ \Gamma = z: H, H \times A \xrightarrow{b} B, H \xrightarrow{\bar{b}} B^A $$.
+The function introduction rule allows us to think of a function from A to B as a value of function type. In logic, if we have proof x of proposition A that entails proof b of proposition B, then we have a proof of proposition A implies B. In category theory, it corresponds to the currying map or transpose associated with exponential objects (ref: [bicartesian-closed-category], [exponential-object-wiki]). For $$ \Gamma = z: H, H \times A \xrightarrow{b} B, H \xrightarrow{\bar{b}} B^A $$.
 
 #### Function elimination rules
 
