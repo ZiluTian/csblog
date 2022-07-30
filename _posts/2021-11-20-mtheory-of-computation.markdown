@@ -4,7 +4,7 @@ layout: post
 date: 2021-11-20
 tag:
 - lattice theory
-- 1970
+- "1970"
 star: true
 category: blog
 author: Zilu

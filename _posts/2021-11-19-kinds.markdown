@@ -2,10 +2,7 @@
 title: "Generics of a higher kind"
 layout: post
 date: 2021-11-19
-tag:
-- type theory
-- OOPSLA
-- 2008
+tags: ["type theory", OOPSLA, "2008"]
 star: true
 category: blog
 author: Zilu

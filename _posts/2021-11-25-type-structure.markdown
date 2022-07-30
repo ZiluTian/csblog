@@ -4,7 +4,7 @@ layout: post
 date: 2021-11-25
 tag:
 - type theory
-- 1974
+- "1974"
 star: true
 category: blog
 author: Zilu
