@@ -1,10 +1,10 @@
 ---
-title: "On the Expressive power of programming language"
+title: "On the expressive power of programming language"
 layout: post
 date: 2022-04-16
 tag:
 - programming language
-- Matthias Felleisen
+- 1991
 star: true
 category: blog
 author: Zilu

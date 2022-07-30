@@ -1,10 +1,10 @@
 ---
-title: "Simple Type Theory"
+title: "Simple type theory"
 layout: post
 date: 2021-11-27
 tag:
 - type theory
-- Richard Southwell
+- tutorial
 star: true
 category: blog
 author: Zilu

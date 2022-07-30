@@ -1,10 +1,10 @@
 ---
-title: "Dependent Type Theory"
+title: "Dependent type theory"
 layout: post
 date: 2021-12-05
 tag:
 - type theory
-- Richard Southwell
+- tutorial
 star: true
 category: blog
 author: Zilu

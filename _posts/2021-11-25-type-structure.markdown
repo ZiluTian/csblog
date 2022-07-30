@@ -3,8 +3,8 @@ title: "Towards a theory of type structure"
 layout: post
 date: 2021-11-25
 tag:
-- type structure
-- John Reynolds
+- type theory
+- 1974
 star: true
 category: blog
 author: Zilu

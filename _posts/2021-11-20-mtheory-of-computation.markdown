@@ -3,8 +3,8 @@ title: "Outline of a mathematical theory of computation"
 layout: post
 date: 2021-11-20
 tag:
-- Dana Scott
-- Lattice theory
+- lattice theory
+- 1970
 star: true
 category: blog
 author: Zilu
