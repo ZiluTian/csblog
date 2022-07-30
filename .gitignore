@@ -4,4 +4,4 @@ _site
 Gemfile.lock
 .bundle
 vendor/
-.posts_template
+.posts
